@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Linden Hill';
+}
+p{
+    margin: 0;
+}
+
+.titlepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size:x-large;
+    justify-items: center;
+    background-image: url(../imgs/titleimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: darkred;
+}
+
+.titlepage__title{
+    text-shadow: 3px 3px black;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0.3em;
+}
+
+.story{
+    
+}
+
+.img-responsive{
+
+}
+
+.story__prompt{
+
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.startgame{
+    font-size: 1.5em;
+    background: none;
+    padding: 0;
+    border: none;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    color: red;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0.5em;
+    font-size: 0.6em;
+}
