@@ -1,12 +1,13 @@
 body{
-    height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 8px;
+    font-family: 'Linden Hill';
 }
 
 .gamebook{
     display: block;
-    height: 100vh;
+    height: 100%;
     font-size: large;
     justify-items: center;
     
@@ -20,7 +21,7 @@ footer{
     bottom: 0;
     right: 0;
     margin: 0.5em;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 footer > p{
     margin: 0;
