@@ -7,19 +7,24 @@ p{
     margin: 0;
 }
 
-.titlepage{
+.base{
+    color: darkred;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    font-size:x-large;
     justify-items: center;
     background-image: url(../imgs/titleimage.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: darkred;
 }
+
+.titlepage{
+    font-size:x-large;
+}
+
+
 
 .titlepage__title{
     text-shadow: 3px 3px black;
@@ -37,18 +42,43 @@ p{
 }
 
 .story__prompt{
+    font-size: 1.5em;
+    background-color: darkred;
+    border-radius: 10px;
+    border: black 4px solid;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
 
+.story__text{
+    padding-top: 1em;
 }
 
 
 a{
     text-decoration: none;
+    color:darkred;
 }
 
+.story__link-section{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
 
+}
 
+.story__link{
+    border-radius: 7px;
+    color: black;
+    background-color: rgb(82, 82, 82);
+    padding: 0.7em;
+    margin: 0.2em;
+}
 
 .startgame{
+    
     font-size: 1.5em;
     background: none;
     padding: 0;
@@ -56,6 +86,9 @@ a{
 }
 a:visited{
     color: darkred;
+}
+.story__link:visited{
+    color: black;
 }
 a:hover{
     color: red;

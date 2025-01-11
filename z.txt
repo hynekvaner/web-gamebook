@@ -14,7 +14,7 @@
     <div class="base story">
         <main>
             <div class="story__prompt">
-                <p class="story__text">Sample text</p>
+                <p>Sample text</p>
                 <div class="story__link-section">
                     <a class="story__link" href=".">Button</a>
                     <a class="story__link" href=".">Button</a>
