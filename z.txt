@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Osamělý dům</title>
     <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" herf="./style/desktop.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Linden+Hill:ital@0;1&display=swap');
     </style>
@@ -14,11 +13,15 @@
     <div class="base story">
         <main>
             <div class="story__prompt">
-                <p>Sample text</p>
-                <div class="story__link-section">
-                    <a class="story__link" href=".">Button</a>
-                    <a class="story__link" href=".">Button</a>
-                    <a class="story__link" href=".">Button</a>
+                <img class="img-responsive" src="./imgs/titleimage.jpeg">
+               
+                <div class="story__prompt-right">
+                    <p class="story__text">Sample text</p>
+                    <div class="story__link-section">
+                        <a class="story__link" href=".">Button</a>
+                        <a class="story__link" href=".">Button</a>
+                        <a class="story__link" href=".">Button</a>
+                    </div>
                 </div>
             </div>
         </main>
