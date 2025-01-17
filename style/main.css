@@ -129,6 +129,7 @@ footer{
     .story__prompt{
         flex-direction: row;
         
+        width: 80% ;
         max-width: 80%;
         justify-self: center;
     }
